@@ -1,0 +1,31 @@
+body {
+    font-family: Source Sans Pro;
+    background-color: #90ccfd;
+    color: #2D363D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: PT Sans;
+    font-size: 35pt;
+}
+
+header {
+    text-align: center;
+}
+/*#5693C4*/
+#profile, footer {
+    color: #21384A;
+    border: 5px solid #b38130;
+    background-color: #67AFEB;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#profile img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
+
