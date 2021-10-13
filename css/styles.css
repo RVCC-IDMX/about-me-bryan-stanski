@@ -16,7 +16,10 @@ h1 {
 header {
     text-align: center;
 }
-/*#5693C4*/
+
+
+/*Profile Section*/
+
 #profile {
     color: #21384A;
     border: 5px solid #b38130;
@@ -29,10 +32,16 @@ header {
     width: 300px;
 }
 
+
+/* Bio Section */
+
 #bio {
     list-style-position: inside;
     text-align: center;
 }
+
+
+/* Hobbies Section */
 
 #hobbies ul {
     text-align: center;
@@ -59,6 +68,26 @@ header {
 #hobbies ul li:nth-child(n+8) {
     color:#21384A;
 }
+
+
+/* Gallery Section */
+
+#gallery {
+    border: 5px solid #b38130;
+    background-color: #67AFEB;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+    color:rgb(221, 25, 107)
+}
+
+
+/* Footer Section */
 
 footer {
     color: #21384A;
