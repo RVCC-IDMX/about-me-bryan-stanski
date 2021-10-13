@@ -6,6 +6,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: PT Sans;
+    text-align: center;
+}
+
+h1 {
     font-size: 35pt;
 }
 
@@ -13,7 +17,7 @@ header {
     text-align: center;
 }
 /*#5693C4*/
-#profile, footer {
+#profile {
     color: #21384A;
     border: 5px solid #b38130;
     background-color: #67AFEB;
@@ -26,6 +30,41 @@ header {
 }
 
 #bio {
+    list-style-position: inside;
     text-align: center;
 }
 
+#hobbies ul {
+    text-align: center;
+    list-style-position: inside;
+    color: #21384A;
+    background-color: #67AFEB;
+    border: 5px solid #b38130;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+
+#hobbies ul li:nth-child(3n+1) {
+    color:rgb(221, 25, 107);
+}
+
+#hobbies ul li:nth-child(3n+2) {
+    color:rgb(205, 25, 221);
+}
+
+#hobbies ul li:nth-child(3n+3) {
+    color:rgb(127, 29, 219);
+}
+
+#hobbies ul li:nth-child(n+8) {
+    color:#21384A;
+}
+
+footer {
+    color: #21384A;
+    border: 5px solid #b38130;
+    background-color: #67AFEB;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
