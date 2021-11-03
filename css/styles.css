@@ -126,6 +126,27 @@ footer {
 }
 
 
+/* Video Section */
+
+#video {
+    border: 5px solid #b38130;
+    background-color: #67AFEB;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+
+#video iframe {
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#video p {
+    text-align: center;
+}
+
+
 
 /* Tablet Sizing/Styling */
 
