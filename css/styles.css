@@ -146,6 +146,10 @@ footer {
     text-align: center;
 }
 
+/* Contact Form */
+#formElements {
+    display: grid;
+}
 
 
 /* Tablet Sizing/Styling */
