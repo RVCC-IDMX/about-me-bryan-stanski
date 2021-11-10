@@ -38,6 +38,7 @@ main {
 .logo {
     display: flex;
     align-items: center;
+    padding-left: 5px;
 }
 
 .logo img {
@@ -86,3 +87,27 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 960px) {
+    
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    .navbar img {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+}
