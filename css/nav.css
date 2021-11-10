@@ -41,8 +41,8 @@ main {
 }
 
 .logo img {
-    height: 5vw;
-    width: 5vw;
+    height: 10vw;
+    width: 10vw;
 }
 
 .logo h1 {
@@ -51,6 +51,12 @@ main {
 
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.4em 0;
+    padding-right: 30px;
+}
 
 /*  
  style all a tags in header 
@@ -58,6 +64,18 @@ main {
 */
 
 
+.navbar-links a {
+    color: 21384A;
+    background-color: #90ccfd;
+    border: solid #b38130;
+    border-radius: 8px;
+    font-size: 1em;
+    letter-spacing: 1.2px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+
+}
 
 
 
