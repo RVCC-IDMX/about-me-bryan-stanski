@@ -42,8 +42,8 @@ main {
 }
 
 .logo img {
-    height: 10vw;
-    width: 10vw;
+    height: 8vw;
+    width: 8vw;
 }
 
 .logo h1 {
@@ -88,7 +88,7 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     
     .navbar {
         flex-direction: row;
@@ -106,8 +106,8 @@ such that no text wraps
         align-self: center;
     }
 
-    .navbar img {
-        max-width: fit-content;
-        max-height: fit-content;
+    .navbar h1 {
+        font-size: 50px;
     }
+
 }
