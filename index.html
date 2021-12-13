@@ -21,12 +21,19 @@
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
+                <nav class="nav">
+                    <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                    <label for="nav__checkbox" class="nav__toggle">
+                        <svg class="menu" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 5 9 L 5 11 L 45 11 L 45 9 L 5 9 z M 5 24 L 5 26 L 45 26 L 45 24 L 5 24 z M 5 39 L 5 41 L 45 41 L 45 39 L 5 39 z"/></svg>
+                        <svg class="close" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"/></svg>
+                    </label>
+                    <ul class="nav__menu">
+                        <li><a href="#bio">Bio</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#lit">Blog</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav>
             </div>
         </nav>
         
@@ -127,7 +134,7 @@
             <h2>An Excerpt From: The Adventures of Sherlock Holmes</h2>
 
             <div id="Lit_Excerpt">
-
+                <!--WRITING ABOUT IMAGE HOVER EFFECTS AND HOW THEY ARE USED - Will be done after nav bar update-->
                 <p>"Well, there seems to me to be only one possible solution. Mr. Rucastle seemed to be a very kind, good-natured man. Is it not possible that his wife is a lunatic, that he desires to keep the matter quiet for fear she should be taken to an asylum, and that he humours her fancies in every way in order to prevent an outbreak?"</p>
 
                 <p>"That is a possible solution--in fact, as matters stand, it is the most probable one. But in any case it does not seem to be a nice household for a young lady."</p>

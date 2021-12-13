@@ -32,7 +32,7 @@ While working on the video section, I learned how to create iframes on my webpag
 While working on the gallery section, I learned how to add images into my webpage and how to use a figure to provide descriptions to the images while making it easy to change how the mutliple figures (with their captions) are viewed on my webpage. For example, while the webpage is the size of a desktop/laptop it will show all 3 figures in a row with their captions below the images, but when the webpage is the size of a phone it will show the 3 figures in a single column with the captions below the images again.
 
 #### <span style="font-weight:bold">Lit Section</span>
-While working on the lit section, I learned how to create a large section of text and format specific words, letters of all or specific paragraphs using css.
+While working on the lit section, I learned how to create a large section of text and format specific words, letters of all or specific paragraphs using css. By using what I initially learned from this section, I was able to change and adapt it to a blod article about Image Hover Effects. (to be imported after nav bar is updated)
 
 #### <span style="font-weight:bold">Contact Section</span>
 While working on the contact section, I learned how to create a working form that will interact with netlify to gather and store all responses with each input either being a small text box (for names or email addresses), a larger text box (for mutliple sentences) a selection, a selection box (for selecting from a list of options), and a using a unordered list to get a yes or no response (using the input type radio).
