@@ -44,6 +44,13 @@ main {
 .logo img {
     height: 8vw;
     width: 8vw;
+    padding: 10px;
+    border: solid #21384A 5px;
+    border-radius: 50%;
+    background-color: #21384A;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .logo h1 {

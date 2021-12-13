@@ -14,10 +14,10 @@ The purpose of this project was to apply/practice the concepts that we learned i
 Throughout this project, I learned a multitude of skills which you can read about below:
 
 #### <span style="font-weight:bold">Nav Bar Section</span>
-While working on the nav bar section, I learned how to create a functional and responsive nav bar in which you will be able to quickly get to any section on the webpage. I also learned how to create a "hamburger menu" for when someone visit my webpage on mobile to make it easier for them to navigate the nav bar.
+While working on the nav bar section, I learned how to create a functional and responsive nav bar in which you will be able to quickly get to any section on the webpage. I also learned how to create a "hamburger menu" for when someone visit my webpage on mobile to make it easier for them to navigate the nav bar. 
 
 #### <span style="font-weight:bold">Profile Section</span>
-While I was working on the profile section of my webpage, I learned how to add an avatar/img as well as createa small div for me to put some basic info in like my name and such. While this was not much, it was a good starting point to the project.
+While I was working on the profile section of my webpage, I learned how to add an avatar/img as well as createa small div for me to put some basic info in like my name and such. While this was not much, it was a good starting point to the project. (By using what I learned from this section in the beginning of the semester, I was about to create and import my own logo to my nav section).
 
 #### <span style="font-weight:bold">Bio Section</span>
 While working on the bio section, I was able to refine the skills I learned in the Profile Section and add in a ordered list.
