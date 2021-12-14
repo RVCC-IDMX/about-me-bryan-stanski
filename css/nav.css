@@ -33,6 +33,51 @@ main {
     font-size: 20px;
 }
 
+.nav__toggle {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    cursor:pointer;
+    margin: 0rem 1rem;
+    right:0px;
+}
+
+.nav__toggle svg {
+    width:1.5rem;
+}
+
+.close {
+    display:none;
+}
+
+.menu {
+    margin-top:0.2rem
+}
+
+.nav__checkbox {
+    display:none;
+}
+
+.nav__menu {
+    display:none;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    margin:1rem;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu {
+    display:block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+    display:block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+    display:none;
+}
+
 /* logo */
 
 .logo {
@@ -44,6 +89,13 @@ main {
 .logo img {
     height: 8vw;
     width: 8vw;
+    padding: 10px;
+    border: solid #21384A 5px;
+    border-radius: 50%;
+    background-color: #21384A;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .logo h1 {
@@ -108,6 +160,20 @@ such that no text wraps
 
     .navbar h1 {
         font-size: 50px;
+    }
+
+    .nav__toggle {
+        display:none;
+    }
+
+    .nav__menu {
+        margin-top:75px;
+        padding-bottom:50px;
+        flex-direction: row;
+    }
+
+    .nav__menu li {
+        display: block;
     }
 
 }

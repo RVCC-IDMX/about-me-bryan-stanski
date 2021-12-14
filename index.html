@@ -7,6 +7,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
     <title>About Me</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 </head>
 <body>
     
@@ -15,17 +16,24 @@
 
         <nav class="navbar">
             <div class="logo">
-                <img src="Imgs/logo-96X96.svg" alt="Blue origami bird logo">
+                <img src="/Imgs/logo.svg" alt="Logo">
 
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
+                <nav class="nav">
+                    <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                    <label for="nav__checkbox" class="nav__toggle">
+                        <svg class="menu" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 5 9 L 5 11 L 45 11 L 45 9 L 5 9 z M 5 24 L 5 26 L 45 26 L 45 24 L 5 24 z M 5 39 L 5 41 L 45 41 L 45 39 L 5 39 z"/></svg>
+                        <svg class="close" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"/></svg>
+                    </label>
+                    <ul class="nav__menu">
+                        <li><a href="#bio">Bio</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#lit">Blog</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav>
             </div>
         </nav>
         
@@ -34,7 +42,7 @@
     <main>
         <section id="profile">
             <!--Profile Info Section; Shows profile image, name & location-->
-            <img src="Imgs/avataaars.png" alt="Avatar image of me">
+            <img src="Imgs/profile-pic.png" alt="Image of me">
 
             <div>
                 <p>Bryan Stanski</p>
@@ -65,8 +73,9 @@
             <!--End of Bio Section-->
         </section>
 
+        
         <section id="hobbies">
-
+        <!--Hobbies Section; Has some hobby info-->
             <h2>Hobbies:</h2>
 
             <ul>
@@ -78,22 +87,23 @@
                 <li>Fencing</li>
                 <hr>
                 <h4>Additional Hobby Info:</h4>
-                <li>When I was more active with playing games, I even made some youtube videos (while most are archived there are still a few <a href="https://www.youtube.com/channel/UCDYSgORrgqjjOLi211_wl9Q" target="_blank">HERE</a>)</li>
+                <li>When I was more active with playing games, I even made some youtube videos (while most are archived there are still a few <a href="https://www.youtube.com/channel/UCDYSgORrgqjjOLi211_wl9Q" target="_blank">HERE</a>)  </li>
                 <li>You can also find one of my most recent (and favorite) performances: <a href="https://www.youtube.com/watch?v=-ALAqbTlxP8" target="_blank">Virtual Drum & Bugel Corps 2020 Show: WE</a></li> 
             </ul>
-
+        <!--End of Hobbies Section-->
         </section>
 
         <section id="video">
+        <!--Video Section; Holds a short video from my youtube channel-->
             <h2>A Short Video From My YouTube:</h2>
 
             <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/_IfWHwO6HTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>A short video from an old stream of mine with a few of my good friends.</p>
-
+        <!--End of Video Section-->
         </section>
 
         <section id="gallery">
-            
+        <!--Galley Section; Holds a few images of one of my favorite hobbies, Pokemon TCG-->
             <h2>Photo Gallery:</h2>
 
             <hr>
@@ -116,46 +126,83 @@
                 <img src="Imgs/ptcg-set-3-640w.jpg" alt="Pokémon Trading Cards Celebrations Second Pulls">
                 <figcaption>My Second Pokémon Trading Cards Celebrations Pulls</figcaption>
             </figure>
-
+        <!--End of Gallery Section-->
         </section>
 
         <article id="lit">
+        <!--Article/Blog; A short blog/article-->
+            <h2>Image Hovering Effects and their Great Uses</h2>
 
-            <h2>An Excerpt From: The Adventures of Sherlock Holmes</h2>
+            <h4 id="hover_mobile" style="color:#2973D6;background-color: #D68C29;font-size:larger">The hover effects will not work on this page if you are on mobile</h4>
 
             <div id="Lit_Excerpt">
+                <!--WRITING ABOUT IMAGE HOVER EFFECTS AND HOW THEY ARE USED - Will be done after nav bar update-->
+                <p>While there are a vast number of ways to design and style your web pages, the one I will be focusing on telling you about here is the Image Hover Effects css styling. Before I jump into how Image Hover Effects work, we should probably talk about why you should even care about them and what they are actually used for. </p>
 
-                <p>"Well, there seems to me to be only one possible solution. Mr. Rucastle seemed to be a very kind, good-natured man. Is it not possible that his wife is a lunatic, that he desires to keep the matter quiet for fear she should be taken to an asylum, and that he humours her fancies in every way in order to prevent an outbreak?"</p>
+                <p>Well, for starters Image Hover Effects can include a wide-variety of effects including such as enlarging the image, adding color or filters to the image, bringing up information via a text overlay and so much more. By utilizing these effects, you can take any image that you have on your site and increase engagment with your audience as well as increase sales and overall hint towards what you want your audience to know they can do on your site. All of that is achieved by drawing the user's attention to a specific part of the website and providing the necessary information they need at any given point in time.</p>
 
-                <p>"That is a possible solution--in fact, as matters stand, it is the most probable one. But in any case it does not seem to be a nice household for a young lady."</p>
+                <p>When it comes to creating these hover effects, there is a very easy and quick way to create them at a basic level. Even though there are many different hover effects you can do, for this example I will be showing you how to add a text overlay to your images To start off you will need to import your image into your site and go into/create a css document and begin styling your image to the size and position that you will want it on your site. Next you will need to make the following:</p>
 
-                <p>"But the money, Mr. Holmes, the money!"</p>
+                <ol>
+                    <li>Make sure you have a class name for your image (for this example we will be using: example_image)</li>
+                    <l1>Put a div around your image and text with the class name of container (container is used since it is easy to identify)</l1>
+                    <li>You will also need a class name for both a "overlay" div and a "text" div (with those class names respectively)</li>
+                    <li>Finally, you will need to style your .text div to your liking (in this case it will be centered on the image)</li>
+                </ol>
 
-                <p>"Well, yes, of course the pay is good--too good. That is what makes me uneasy. Why should they give you 120 pounds a year, when they could have their pick for 40 pounds? There must be some strong reason behind."</p>
+                <p>After you have done that you will using the .overlay div to create that background to your hover effect like so:</p>
+                
+                <p>.overlay {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color: #008CBA;
+                }
+                </p>
 
-                <p>"I thought that if I told you the circumstances you would understand afterwards if I wanted your help. I should feel so much stronger if I felt that you were at the back of me."</p>
+                <p>And finally once you have all that setup, you only need to add the actual hover effect to your css file with: </p>
 
-                <p>"Oh, you may carry that feeling away with you. I assure you that your little problem promises to be the most interesting which has come my way for some months. There is something distinctly novel about some of the features. If you should find yourself in doubt or in danger--"</p>
+                <p>.container:hover .overlay {
+                    opacity: 1;
+                }
+                </p>
 
-                <p>"Danger! What danger do you foresee?"</p>
+                <p>Now by doing all of that, you should have a hover effect that looks something like the one at the end of this article.</p>
 
-                <p>Holmes shook his head gravely. "It would cease to be a danger if we could define it," said he. "But at any time, day or night, a telegram would bring me down to your help."</p>
+                <p>So while there are many uses for image hover effects, there is one downside to them and that is that it only works on devices that have the ability to hover over your images (like desktops/laptops). This means mobile devices do not get to interact with these effects, so when you design your webpages with hover effects, make sure you keep that in mind and create an alternative for mobile devices (which you can see below in my example).</p>
 
-                <p>"That is enough." She rose briskly from her chair with the anxiety all swept from her face. "I shall go down to Hampshire quite easy in my mind now. I shall write to Mr. Rucastle at once, sacrifice my poor hair to-night, and start for Winchester to-morrow." With a few grateful words to Holmes she bade us both good-night and bustled off upon her way.</p>
+                <p>If you would like more details or to see more ways you can adapt Image Hover Effects you can check out any of these sites that I used to research this topic:</p>
 
-                <p>"At least," said I as we heard her quick, firm steps descending the stairs, "she seems to be a young lady who is very well able to take care of herself."</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp" style="font-weight:bold">W3Schools</a></li>
+                    <li><a href="https://wpdatatables.com/css-image-hover-effects/" style="font-weight:bold">wpDataTables</a></li>
+                    <li><a href="https://www.pumpkinwebdesign.com/web-design-manchester/advantages-of-image-hover-effects/" style="font-weight:bold">Pumpkin Web Design</a></li>
+                </ul>
 
-                <p>"And she would need to be," said Holmes gravely. "I am much mistaken if we do not hear from her before many days are past."</p>
+                <p>Below is the example of an Image Hover Effect using the steps listed above.</p>
 
-                <p>It was not very long before my friend's prediction was fulfilled. A fortnight went by, during which I frequently found my thoughts turning in her direction and wondering what strange side-alley of human experience this lonely woman had strayed into. The unusual salary, the curious conditions, the light duties, all pointed to something abnormal, though whether a fad or a plot, or whether the man were a philanthropist or a villain, it was quite beyond my powers to determine. As to Holmes, I observed that he sat frequently for half an hour on end, with knitted brows and an abstracted air, but he swept the matter away with a wave of his hand when I mentioned it. "Data! data! data!" he cried impatiently. "I can't make bricks without clay." And yet he would always wind up by muttering that no sister of his should ever have accepted such a situation.</p>
+                <p>(Warning: Image may split into two parts depending on how wide your screen is. If this happens try to readjust your window size)</p>
+
+                <div class="container">
+                    <img src="Imgs/Verge.png" alt="Verge Logo" class="image">
+                    <div class="overlay">
+                        <div class="text">The Verge eSports Logo</div>
+                    </div>
+                </div>
 
             </div>
-
+        <!--End of Article-->
         </article>
         
 
         <section id="contact">
-            
+        <!--Contact Section; used for anyone to get in contact with me-->
             <h2>Contact Us:</h2>
 
             <form id="contactForm" name="contactForm" method="post" data-netlify="true">
@@ -214,7 +261,7 @@
                 </fieldset>
 
             </form>
-
+        <!--End of Contact Section-->
         </section>
 
         <br>
@@ -223,6 +270,10 @@
 
     <footer>
 
+        <a href="https://github.com/RVCC-IDMX/about-me-bryan-stanski/tree/main">Github Repo</a>
+        -
+        <a href="https://www.youtube.com/channel/UCDYSgORrgqjjOLi211_wl9Q">YouTube</a>
+        -
         ©2021 - Bryan Stanski
 
     </footer>
