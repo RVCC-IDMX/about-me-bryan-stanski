@@ -32,7 +32,7 @@ While working on the video section, I learned how to create iframes on my webpag
 While working on the gallery section, I learned how to add images into my webpage and how to use a figure to provide descriptions to the images while making it easy to change how the mutliple figures (with their captions) are viewed on my webpage. For example, while the webpage is the size of a desktop/laptop it will show all 3 figures in a row with their captions below the images, but when the webpage is the size of a phone it will show the 3 figures in a single column with the captions below the images again.
 
 #### <span style="font-weight:bold">Lit Section</span>
-While working on the lit section, I learned how to create a large section of text and format specific words, letters of all or specific paragraphs using css. By using what I initially learned from this section, I was able to change and adapt it to a blod article about Image Hover Effects. (to be imported after nav bar is updated)
+While working on the lit section, I learned how to create a large section of text and format specific words, letters of all or specific paragraphs using css. By using what I initially learned from this section, I was able to change and adapt it to a blod article about Image Hover Effects.
 
 #### <span style="font-weight:bold">Contact Section</span>
 While working on the contact section, I learned how to create a working form that will interact with netlify to gather and store all responses with each input either being a small text box (for names or email addresses), a larger text box (for mutliple sentences) a selection, a selection box (for selecting from a list of options), and a using a unordered list to get a yes or no response (using the input type radio).
@@ -52,10 +52,10 @@ When applying css to my webpage I had to come up with a color scheme that had en
 * Fonts from <a href="https://fonts.google.com/" style="font-weight:bold">Google Fonts</a>
 * Some basic concepts that I adapted for my project were from <a href="https://www.w3schools.com/" style="font-weight:bold">W3Schools</a>
 
-Sources for the blog article include: <span style="font-weight:bold">(Sources to be added once blog article is posted)</span>
-* Source 1
-* Source 2
-* Source 3
+Sources for the blog article include: <span style="font-weight:bold"></span>
+* <a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp" style="font-weight:bold">W3Schools</a>
+* <a href="https://wpdatatables.com/css-image-hover-effects/" style="font-weight:bold">wpDataTables</a>
+* <a href="https://www.pumpkinwebdesign.com/web-design-manchester/advantages-of-image-hover-effects/" style="font-weight:bold">Pumpkin Web Design</a>
 
 ## <span style="font-weight:bold">Licensing</span>
 

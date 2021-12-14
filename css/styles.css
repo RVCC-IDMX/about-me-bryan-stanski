@@ -98,13 +98,19 @@ header {
     margin-bottom: 2rem;
 }
 
+#hover_mobile {
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 #lit div {
     padding-top: 0.25rem;
     padding-bottom: 2rem;
     max-width: 30rem;
     margin: 0 auto;
     padding-left: 18px;
-    text-indent: -10px;
 }
 
 
@@ -112,7 +118,45 @@ header {
     font-family: Ephesis;
     font-size: 3em;
     padding: .1em;
-    line-height: .65;
+    line-height: 0.65;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 /* Footer Section */
@@ -220,7 +264,7 @@ legend {
         max-width: 100%;
         columns: 20rem;
     }
-    
+
 }
 
 /* Laptop Sizing/Styling */
@@ -251,6 +295,10 @@ legend {
 
     #contact {
         max-width: 800px;
+    }
+
+    #hover_mobile {
+        display: none;
     }
  
     

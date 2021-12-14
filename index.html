@@ -131,33 +131,70 @@
 
         <article id="lit">
         <!--Article/Blog; A short blog/article-->
-            <h2>An Excerpt From: The Adventures of Sherlock Holmes</h2>
+            <h2>Image Hovering Effects and their Great Uses</h2>
+
+            <h4 id="hover_mobile" style="color:#2973D6;background-color: #D68C29;font-size:larger">The hover effects will not work on this page if you are on mobile</h4>
 
             <div id="Lit_Excerpt">
                 <!--WRITING ABOUT IMAGE HOVER EFFECTS AND HOW THEY ARE USED - Will be done after nav bar update-->
-                <p>"Well, there seems to me to be only one possible solution. Mr. Rucastle seemed to be a very kind, good-natured man. Is it not possible that his wife is a lunatic, that he desires to keep the matter quiet for fear she should be taken to an asylum, and that he humours her fancies in every way in order to prevent an outbreak?"</p>
+                <p>While there are a vast number of ways to design and style your web pages, the one I will be focusing on telling you about here is the Image Hover Effects css styling. Before I jump into how Image Hover Effects work, we should probably talk about why you should even care about them and what they are actually used for. </p>
 
-                <p>"That is a possible solution--in fact, as matters stand, it is the most probable one. But in any case it does not seem to be a nice household for a young lady."</p>
+                <p>Well, for starters Image Hover Effects can include a wide-variety of effects including such as enlarging the image, adding color or filters to the image, bringing up information via a text overlay and so much more. By utilizing these effects, you can take any image that you have on your site and increase engagment with your audience as well as increase sales and overall hint towards what you want your audience to know they can do on your site. All of that is achieved by drawing the user's attention to a specific part of the website and providing the necessary information they need at any given point in time.</p>
 
-                <p>"But the money, Mr. Holmes, the money!"</p>
+                <p>When it comes to creating these hover effects, there is a very easy and quick way to create them at a basic level. Even though there are many different hover effects you can do, for this example I will be showing you how to add a text overlay to your images To start off you will need to import your image into your site and go into/create a css document and begin styling your image to the size and position that you will want it on your site. Next you will need to make the following:</p>
 
-                <p>"Well, yes, of course the pay is good--too good. That is what makes me uneasy. Why should they give you 120 pounds a year, when they could have their pick for 40 pounds? There must be some strong reason behind."</p>
+                <ol>
+                    <li>Make sure you have a class name for your image (for this example we will be using: example_image)</li>
+                    <l1>Put a div around your image and text with the class name of container (container is used since it is easy to identify)</l1>
+                    <li>You will also need a class name for both a "overlay" div and a "text" div (with those class names respectively)</li>
+                    <li>Finally, you will need to style your .text div to your liking (in this case it will be centered on the image)</li>
+                </ol>
 
-                <p>"I thought that if I told you the circumstances you would understand afterwards if I wanted your help. I should feel so much stronger if I felt that you were at the back of me."</p>
+                <p>After you have done that you will using the .overlay div to create that background to your hover effect like so:</p>
+                
+                <p>.overlay {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color: #008CBA;
+                }
+                </p>
 
-                <p>"Oh, you may carry that feeling away with you. I assure you that your little problem promises to be the most interesting which has come my way for some months. There is something distinctly novel about some of the features. If you should find yourself in doubt or in danger--"</p>
+                <p>And finally once you have all that setup, you only need to add the actual hover effect to your css file with: </p>
 
-                <p>"Danger! What danger do you foresee?"</p>
+                <p>.container:hover .overlay {
+                    opacity: 1;
+                }
+                </p>
 
-                <p>Holmes shook his head gravely. "It would cease to be a danger if we could define it," said he. "But at any time, day or night, a telegram would bring me down to your help."</p>
+                <p>Now by doing all of that, you should have a hover effect that looks something like the one at the end of this article.</p>
 
-                <p>"That is enough." She rose briskly from her chair with the anxiety all swept from her face. "I shall go down to Hampshire quite easy in my mind now. I shall write to Mr. Rucastle at once, sacrifice my poor hair to-night, and start for Winchester to-morrow." With a few grateful words to Holmes she bade us both good-night and bustled off upon her way.</p>
+                <p>So while there are many uses for image hover effects, there is one downside to them and that is that it only works on devices that have the ability to hover over your images (like desktops/laptops). This means mobile devices do not get to interact with these effects, so when you design your webpages with hover effects, make sure you keep that in mind and create an alternative for mobile devices (which you can see below in my example).</p>
 
-                <p>"At least," said I as we heard her quick, firm steps descending the stairs, "she seems to be a young lady who is very well able to take care of herself."</p>
+                <p>If you would like more details or to see more ways you can adapt Image Hover Effects you can check out any of these sites that I used to research this topic:</p>
 
-                <p>"And she would need to be," said Holmes gravely. "I am much mistaken if we do not hear from her before many days are past."</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp" style="font-weight:bold">W3Schools</a></li>
+                    <li><a href="https://wpdatatables.com/css-image-hover-effects/" style="font-weight:bold">wpDataTables</a></li>
+                    <li><a href="https://www.pumpkinwebdesign.com/web-design-manchester/advantages-of-image-hover-effects/" style="font-weight:bold">Pumpkin Web Design</a></li>
+                </ul>
 
-                <p>It was not very long before my friend's prediction was fulfilled. A fortnight went by, during which I frequently found my thoughts turning in her direction and wondering what strange side-alley of human experience this lonely woman had strayed into. The unusual salary, the curious conditions, the light duties, all pointed to something abnormal, though whether a fad or a plot, or whether the man were a philanthropist or a villain, it was quite beyond my powers to determine. As to Holmes, I observed that he sat frequently for half an hour on end, with knitted brows and an abstracted air, but he swept the matter away with a wave of his hand when I mentioned it. "Data! data! data!" he cried impatiently. "I can't make bricks without clay." And yet he would always wind up by muttering that no sister of his should ever have accepted such a situation.</p>
+                <p>Below is the example of an Image Hover Effect using the steps listed above.</p>
+
+                <p>(Warning: Image may split into two parts depending on how wide your screen is. If this happens try to readjust your window size)</p>
+
+                <div class="container">
+                    <img src="Imgs/Verge.png" alt="Verge Logo" class="image">
+                    <div class="overlay">
+                        <div class="text">The Verge eSports Logo</div>
+                    </div>
+                </div>
 
             </div>
         <!--End of Article-->
